@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketing & Consulting</title>
-    <link rel="stylesheet" href="4.css">
+    <link rel="stylesheet" href="GT.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -47,23 +47,38 @@
         </div>
     </section>
     
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="cta-btn">Send Message</button>
-            </form>
+   <section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>your-email@example.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Phone</h3>
+                <p>(123) 456-7890</p>
+            </div>
+            <div class="info-item">
+                <h3>Address</h3>
+                <p>123 Business St,<br>City, State, 12345</p>
+            </div>
         </div>
-    </section>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
     
     <footer class="footer">
         <div class="container">
@@ -71,6 +86,6 @@
         </div>
     </footer>
     
-    <script src="4.js"></script>
+    <script src="GT.js"></script>
 </body>
 </html>
